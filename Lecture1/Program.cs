@@ -14,11 +14,10 @@ namespace Lecture1
 			Console.WriteLine("What is your name?");
 
 			// deklarace proměnné, načtení vstupu
-			// string name = Console.ReadLine();
+			string name = Console.ReadLine();
 			// To samé jako:
 			// string name;
 			// name = Console.ReadLine();
-			string name = "Kuba";
 
 			Console.WriteLine("Hello, {0}!", name);
 			// To samé jako:
