@@ -68,6 +68,16 @@ namespace Lecture2
 			Console.WriteLine("You entered: {0}", result2);
 
 
+			// if - else if - else můžu "řetězit" za sebou
+			if (-result < result2) {
+				Console.WriteLine("{0} < {1}", -result, result2);
+			} else if (-result > result2) {
+				Console.WriteLine("{0} > {1}", -result, result2);
+			} else {
+				Console.WriteLine("{0} == {1}", -result, result2);
+			}
+
+
 			// for (incializece; podmínka; příkaz)
 			//  - inicializace se provede na začátku
 			//  - podmínka se kontroluje před každou iterací
