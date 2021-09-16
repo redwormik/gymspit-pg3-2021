@@ -22,6 +22,7 @@ namespace Lecture2
 			}
 
 			Console.WriteLine("You may now enter.");
+			Console.WriteLine();
 
 
 			Console.Write("Please input a negative number: ");
@@ -44,6 +45,7 @@ namespace Lecture2
 			}
 
 			Console.WriteLine("You entered: {0}", result);
+			Console.WriteLine();
 
 
 			// Cyklus do while provádí příkazy, dokud podmínka platí,
@@ -66,6 +68,7 @@ namespace Lecture2
 			} while (!success2); // input2 tady neexistuje
 
 			Console.WriteLine("You entered: {0}", result2);
+			Console.WriteLine();
 
 
 			// if - else if - else můžu "řetězit" za sebou
@@ -76,6 +79,7 @@ namespace Lecture2
 			} else {
 				Console.WriteLine("{0} == {1}", -result, result2);
 			}
+			Console.WriteLine();
 
 
 			// for (incializece; podmínka; příkaz)
@@ -94,6 +98,7 @@ namespace Lecture2
 			}
 
 			Console.WriteLine("Sum is: {0}", sum);
+			Console.WriteLine();
 
 			// To samé pomocí while:
 			int sum2 = 0;
@@ -109,6 +114,24 @@ namespace Lecture2
 			}
 
 			Console.WriteLine("Sum is: {0}", sum2);
+			Console.WriteLine();
+
+
+			// Rozdíl mezi i++ a ++i je v hodnotě celého výrazu:
+			// - hodnota i++ je stejná jako i před inkrementací
+			// - hodnota ++i je stejná jako i po inkrementaci
+			int a = 2, b = 4;
+			Console.WriteLine("a = {0}, b = {1}", a, b);
+			Console.WriteLine("a++ = {0}, ++b = {1}", a++, ++b);
+			Console.WriteLine("a = {0}, b = {1}", a, b);
+			Console.WriteLine();
+
+			// Podobně i-- a --i
+			int c = 6, d = 8;
+			Console.WriteLine("c = {0}, d = {1}", c, d);
+			Console.WriteLine("c-- = {0}, --d = {1}", c--, --d);
+			Console.WriteLine("c = {0}, d = {1}", c, d);
+			Console.WriteLine();
 
 
 			Console.WriteLine("Press any key...");
