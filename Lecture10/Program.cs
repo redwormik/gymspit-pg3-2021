@@ -66,11 +66,26 @@ namespace Lecture10
 
 		static void BubbleSortInt(int[] array)
 		{
-			// TODO
+			int last = array.Length - 1;
+			bool swapped;
+
+			do {
+				swapped = false;
+				for (int i = 0; i < last; i += 1) {
+					if (array[i] > array[i + 1]) {
+						int tmp = array[i];
+						array[i] = array[i + 1];
+						array[i + 1] = tmp;
+						swapped = true;
+					}
+				}
+
+				last -= 1;
+			} while (swapped);
 		}
 
 
-			static void Main(string[] args)
+		static void Main(string[] args)
 		{
 			int length = 12;
 			int seed = 1811;
