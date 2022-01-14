@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Obecné informace o sestavení se řídí přes následující 
 // sadu atributů. Změnou hodnot těchto atributů se upraví informace
 // přidružené k sestavení.
-[assembly: AssemblyTitle("Lecture13")]
+[assembly: AssemblyTitle("Lecture8")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Hewlett-Packard Company")]
-[assembly: AssemblyProduct("Lecture13")]
+[assembly: AssemblyProduct("Lecture8")]
 [assembly: AssemblyCopyright("Copyright © Hewlett-Packard Company 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
