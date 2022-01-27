@@ -1,4 +1,12 @@
-﻿using System;
+﻿// https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/inheritance
+// https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/polymorphism
+// https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/this
+// https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/base
+// https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual
+// https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/override
+// (https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/new-modifier)
+
+using System;
 
 
 namespace Lecture18
